@@ -2,17 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Otomanopee+One&family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 html,body{
 height: 100%;
 width: 100%;
 margin-top: 0;
 }
+/* *{
+    border:1px solid red;
+} */
 .m-section-1{
     margin:auto;
     width: 100%;
-    height:50px;
-    background-color:orangered;
-    border: 3px solid rgba(226, 51, 39, 0.884);
+    height:50vx;
+    background-color:rgba(255, 68, 0, 0.822);
+    border: 3px solid rgba(158, 22, 12, 0.884);
     padding-left: 2px;
     box-shadow:5px 10px 8px #8888;
 }
@@ -37,7 +41,7 @@ margin-top: 0;
     width: 100%;
     background-image: url("/Public/Images/-min.jpg");
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
  
 }
 .m-section-2-left{
@@ -63,6 +67,15 @@ padding-left:25px;
    .m-section-2-center{
        margin:0;
        
+   }
+   .m-section-2-center h6::first-letter{
+    font-size: 50px;
+    color: chocolate;
+    font-weight: bold;
+   }
+   .m-section-2-center h6::first-line{
+    font-size: 20px;
+    color: rgb(147, 210, 30);
    }
    .m-section-2-bottom{
     font-size: 15px;
